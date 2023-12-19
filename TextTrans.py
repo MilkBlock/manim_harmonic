@@ -1,4 +1,4 @@
-from manimlib import *
+from manim import *
 class TextExample(Scene):
     def construct(self):
         # 想要正确运行这个场景，你需要确保你的计算机中安装了Consolas字体
@@ -38,3 +38,4 @@ class TextExample(Scene):
         self.wait()
         self.play(Write(slant))
         self.wait()
+        
